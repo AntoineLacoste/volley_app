@@ -1,0 +1,31 @@
+{
+  "name": "volley_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "fastify start dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "fastify": "^4.8.1",
+    "fastify-cli": "^5.5.0",
+    "mariadb": "^3.0.1",
+    "sequelize": "^6.25.1",
+    "sequelize-typescript": "^2.1.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "target": "ES6",
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "strict": true,
+        "skipLibCheck": true,
+        "sourceMap": true
+    },
+    "files": [
+        "server.ts"
+    ]
+}
