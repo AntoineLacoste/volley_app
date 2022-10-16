@@ -1,10 +1,11 @@
 import { DataTypes } from "sequelize";
-import { Model, Column, Table, CreatedAt, UpdatedAt, PrimaryKey, DataType } from "sequelize-typescript";
+import { Model, Column, Table, CreatedAt, UpdatedAt, PrimaryKey, DataType, AutoIncrement } from "sequelize-typescript";
 
 @Table
 export class Team extends Model {
 
     @PrimaryKey
+    @AutoIncrement
     @Column(DataType.INTEGER)
     id_team!: number;
 
